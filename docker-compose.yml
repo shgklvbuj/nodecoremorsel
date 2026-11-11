@@ -1,0 +1,8 @@
+FROM alpine:3.18
+CMD ["echo", "ready"]
+node_modules/
+dist/
+*.log
+name: demo
+language: nodejs
+version: 1.0.0
